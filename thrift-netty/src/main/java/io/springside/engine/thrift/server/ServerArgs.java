@@ -8,6 +8,7 @@ public class ServerArgs extends AbstractServerArgs<ServerArgs> {
 	public int bossThreads = 2;
 	public int workerThreads = 0;
 	public int userThreads = Runtime.getRuntime().availableProcessors() * 2;
+	public int shutdownTimeoutInSecs = 10;
 
 	public ServerArgs() {
 		super(null);

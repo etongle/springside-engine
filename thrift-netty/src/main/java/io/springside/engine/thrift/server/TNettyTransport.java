@@ -11,10 +11,10 @@ public class TNettyTransport extends TTransport {
 
 	public static final int DEFAULT_BUFFER_SIZE = 1024;
 
+	private Channel channel;
+
 	private ByteBuf in;
 	private ByteBuf out;
-
-	private Channel channel;
 
 	public TNettyTransport(Channel channel, ByteBuf in) {
 		this.channel = channel;
