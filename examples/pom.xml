@@ -11,11 +11,7 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>io.springside.engine</groupId>
-			<artifactId>thrift-engine</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+
 	</dependencies>
 
 	<build>
